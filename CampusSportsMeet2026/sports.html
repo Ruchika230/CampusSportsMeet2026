@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Annual Sports Meet 2026</title>
+
+    <link rel="stylesheet" href="style.css">
+<nav>
+<a href="index.html">Go to Home Page</a><br>
+<a href="feedback.html">Go to Feedback Page</a>
+</nav>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>ANNUAL SPORTS MEET 2026</h1>
+
+        <h2>
+            Sports Events & Student Participation
+        </h2>
+
+        <hr>
+
+    </header>
+
+    <!-- Sports Event Details -->
+
+    <section class="card">
+
+        <h2>Sports Event Details</h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>Event ID</th>
+
+                    <th>Event Name</th>
+
+                    <th>Category</th>
+
+                    <th>Date</th>
+
+                    <th>Time</th>
+
+                    <th>Venue</th>
+
+                    <th>Fee</th>
+
+                    <th>Status</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>SP101</td>
+
+                    <td>Football</td>
+
+                    <td>Team Event</td>
+
+                    <td>10-06-2026</td>
+
+                    <td>09:00 AM</td>
+
+                    <td>Main Ground</td>
+
+                    <td>₹500</td>
+
+                    <td>Open</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>SP102</td>
+
+                    <td>Cricket</td>
+
+                    <td>Team Event</td>
+
+                    <td>11-06-2026</td>
+
+                    <td>10:00 AM</td>
+
+                    <td>Cricket Stadium</td>
+
+                    <td>₹700</td>
+
+                    <td>Open</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>SP103</td>
+
+                    <td>Badminton</td>
+
+                    <td>Individual</td>
+
+                    <td>12-06-2026</td>
+
+                    <td>11:00 AM</td>
+
+                    <td>Indoor Court</td>
+
+                    <td>₹200</td>
+
+                    <td>Closed</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>SP104</td>
+
+                    <td>Volleyball</td>
+
+                    <td>Team Event</td>
+
+                    <td>13-06-2026</td>
+
+                    <td>02:00 PM</td>
+
+                    <td>Volley Court</td>
+
+                    <td>₹400</td>
+
+                    <td>Open</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>SP105</td>
+
+                    <td>Athletics</td>
+
+                    <td>Individual</td>
+
+                    <td>14-06-2026</td>
+
+                    <td>08:00 AM</td>
+
+                    <td>Track Field</td>
+
+                    <td>₹150</td>
+
+                    <td>Open</td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+ 
+    <section class="card">
+
+        <h2>
+            Student Participation Registration Form
+        </h2>
+
+        <form id="registrationForm">
+
+            <label for="studentName">
+                Student Name:
+            </label>
+
+            <input
+            type="text"
+            id="studentName"
+            placeholder="Enter your name"
+            required>
+
+            <label for="registerNumber">
+                Register Number:
+            </label>
+
+            <input
+            type="text"
+            id="registerNumber"
+            placeholder="Example: 22CS101"
+            required>
+
+            <label for="studentEmail">
+                Email ID:
+            </label>
+
+            <input
+            type="email"
+            id="studentEmail"
+            placeholder="Enter your email"
+            required>
+
+            <label for="mobileNumber">
+                Mobile Number:
+            </label>
+
+            <input
+            type="tel"
+            id="mobileNumber"
+            placeholder="Enter mobile number"
+            required>
+
+            <label for="department">
+                Department:
+            </label>
+
+            <input
+            type="text"
+            id="department"
+            placeholder="Enter department"
+            required>
+
+            <label for="studyYear">
+                Year of Study:
+            </label>
+
+            <select id="studyYear">
+
+                <option value="">
+                    Select Year
+                </option>
+
+                <option value="1st Year">
+                    1st Year
+                </option>
+
+                <option value="2nd Year">
+                    2nd Year
+                </option>
+
+                <option value="3rd Year">
+                    3rd Year
+                </option>
+
+                <option value="4th Year">
+                    4th Year
+                </option>
+
+            </select>
+
+            <label for="selectedEvent">
+                Select Event:
+            </label>
+
+            <select id="selectedEvent">
+
+                <option value="">
+                    Select Event
+                </option>
+
+                <option value="Football">
+                    Football
+                </option>
+
+                <option value="Cricket">
+                    Cricket
+                </option>
+
+                <option value="Badminton">
+                    Badminton
+                </option>
+
+                <option value="Volleyball">
+                    Volleyball
+                </option>
+
+                <option value="Athletics">
+                    Athletics
+                </option>
+
+            </select>
+
+            <label for="participationType">
+                Participation Type:
+            </label>
+
+            <select id="participationType">
+
+                <option value="">
+                    Select Type
+                </option>
+
+                <option value="Individual">
+                    Individual
+                </option>
+
+                <option value="Team">
+                    Team
+                </option>
+
+            </select>
+
+            <label for="teamName">
+                Team Name:
+            </label>
+
+            <input
+            type="text"
+            id="teamName"
+            placeholder="Enter team name">
+
+            <label for="teamMembers">
+                Number of Team Members:
+            </label>
+
+            <input
+            type="number"
+            id="teamMembers"
+            placeholder="Enter team size">
+
+            <input
+            type="submit"
+            value="Register">
+
+            <input
+            type="reset"
+            value="Clear Form">
+
+            <p id="registrationMessage"></p>
+
+        </form>
+
+    </section>
+
+    <!-- Participant Count -->
+
+    <section class="card">
+
+        <h2>
+            Registered Participants
+        </h2>
+
+        <h3>
+
+            Total Participants:
+            <span id="participantCount">
+                0
+            </span>
+
+        </h3>
+
+        <div id="participantContainer">
+
+        </div>
+
+    </section>
+
+    
+        </form>
+
+    </section>
+
+    <!-- Average Rating -->
+
+    <section class="card">
+
+        <h2>
+            Average Event Rating
+        </h2>
+
+        <h3>
+
+            Average Rating:
+            <span id="averageRating">
+                0
+            </span>
+
+        </h3>
+
+        <div id="feedbackContainer">
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <hr>
+
+        <h3>
+            Department of Physical Education
+        </h3>
+
+        <p>
+            Email:
+            sportsdept@college.edu
+        </p>
+
+        <p>
+            Phone:
+            +91 98765 43210
+        </p>
+
+        <p>
+            Location:
+            College Sports Complex
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
